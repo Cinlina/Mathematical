@@ -6,6 +6,8 @@ plt.rcParams['font.sans-serif'] = ['Microsoft YaHei']
 data = pd.read_excel('数据文件.xls')
 
 fig, ax = plt.subplots(8, 2, figsize=(15, 40))
+
+# diff_ 标记为1的数据需要进行一阶差分
 diff_ = [0, 1, 1, 1, 1, 1, 0, 1]
 
 for i in range(1, 9):

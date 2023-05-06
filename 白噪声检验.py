@@ -3,7 +3,7 @@ import pandas as pd
 
 data = pd.read_excel('数据文件.xls')
 
-# 需要差分的地区
+# diff_ 标记为1的数据需要进行一阶差分
 diff_ = [0, 1, 1, 1, 1, 1, 0, 1]
 
 for i in range(1, 9):
